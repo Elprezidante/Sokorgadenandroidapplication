@@ -72,7 +72,7 @@
                 android:backgroundTint="#1B5E20"
                 android:textSize="20sp"
                 android:textColor="@color/bg_light"
-                android:text="Purchase Button"/>
+                android:text="Buy now"/>
 
 
         </LinearLayout>

@@ -20,7 +20,7 @@ class PaymentActivity : AppCompatActivity() { // Declares the PaymentActivity cl
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets -> // Adjusts the view padding to account for system bars
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars()) // Gets the sizes of system status and navigation bars
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom) // Applies the system bar sizes as padding to the view
-            insets // Returns the original insets object
+            insets // Returns the original insets object to correctly complete the listener
         }
 
 //        Find the views by use of their ids
