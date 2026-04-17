@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_light"
+    android:background="#F8BBD0"
     android:gravity="center">
 
     <ImageView
@@ -11,5 +11,7 @@
         android:layout_height="200dp"
         android:src="@drawable/soko"
         android:contentDescription="Sokogarden Logo" />
+
+
 
 </RelativeLayout>
